@@ -14,7 +14,7 @@ public class Character {
 	}
 	
 	public void draw(MyFrame f) {
-		f.setColor(0, 128, 0);
-		f.fillRect(x, y, 30, 30);
+		f.setColor(128, 0, 0);
+		f.fillRect(x, y, 10, 30);
 	}
 }
