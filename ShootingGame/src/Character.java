@@ -17,4 +17,9 @@ public class Character {
 		f.setColor(128, 0, 0);
 		f.fillRect(x, y, 10, 10);
 	}
+	
+	public void Pdraw(MyFrame f) {
+		f.setColor(0, 128, 0);
+		f.fillRect(x, y, 10, 10);
+	}
 }

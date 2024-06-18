@@ -30,7 +30,7 @@ public class GameFrame extends MyFrame{
 		int i = 0;
 		while(i < GameWorld.PlayerBullets.size()) {
 			PlayerBullet b = GameWorld.PlayerBullets.get(i);
-			b.draw(this);
+			b.Pdraw(this);
 			b.move();
 			if(b.y < 0) {
 				GameWorld.PlayerBullets.remove(i);

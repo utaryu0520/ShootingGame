@@ -15,4 +15,10 @@ public class CurveEnemy extends Enemy{
 		}
 	}
 
+	public void draw(MyFrame f) {
+		f.setColor(128, 0, 0);
+		f.fillOval(x, y, 30, 30);
+		f.setColor(128, 128, 128);
+		f.fillOval(x + 5, y, 20, 30);
+	}
 }
