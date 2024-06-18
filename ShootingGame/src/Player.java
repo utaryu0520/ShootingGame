@@ -29,10 +29,10 @@ public class Player extends Character implements KeyListener{
 	public void keyPressed(KeyEvent e) {
 		// TODO 自動生成されたメソッド・スタブ
 		if(e.getKeyCode() == KeyEvent.VK_LEFT) {
-			vx -= 5;
+			vx = -5;
 		}
 		if(e.getKeyCode() == KeyEvent.VK_RIGHT) {
-			vx += 5;
+			vx = 5;
 		}
 		if(e.getKeyCode() == KeyEvent.VK_SPACE) {
 			GameWorld.PlayerBullets.add(new PlayerBullet(x + 10, y -  20, 10, -10));
