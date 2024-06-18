@@ -16,11 +16,11 @@ public class EnemyBase extends Enemy{
 		super.move();
 		if(x > 300)vx = -1;
 		if(x < 100)vx = 1;
-		if(Math.random() < 0.05) {
-			GameWorld.enemies.add(new StraightEnemy(x, y, 0, 2));
+		if(Math.random() < 0.04) {
+			GameWorld.enemies.add(new CurveEnemy(x, y, 0, 3));
 		}
-		if(Math.random() < 0.05) {
-			GameWorld.enemies.add(new RandomEnemy(x, y, 0, 1));
+		if(Math.random() < 0.04) {
+			GameWorld.enemies.add(new DropEnemy(x, y, 0, 3));
 		}
 	}
 }
