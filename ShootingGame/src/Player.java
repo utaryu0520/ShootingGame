@@ -38,7 +38,6 @@ public class Player extends Character implements KeyListener{
 			GameWorld.PlayerBullets.add(new PlayerBullet(x + 10, y -  20, 5, -10));
 			GameWorld.PlayerBullets.add(new PlayerBullet(x + 10, y -  20, 0, -10));
 			GameWorld.PlayerBullets.add(new PlayerBullet(x + 10, y -  20, -5, -10));
-			System.out.println("弾の数＝" + GameWorld.PlayerBullets.size());
 		}
 	}
 
